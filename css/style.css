@@ -163,6 +163,7 @@ img.show {
     margin-bottom: 20px;
     box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
     margin-left: 35px;
+    cursor: pointer;
 }
 .fixed .sidebar__img img {
     margin-left: 0;               
@@ -216,6 +217,7 @@ main {
     display: block;    
     width: 30%;
     margin: 0 auto;
+    cursor: pointer;
 }
 .slider-block__prev img:hover,
 .slider-block__next img:hover {
