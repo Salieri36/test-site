@@ -71,7 +71,7 @@ next.addEventListener('click', () => {
     }, 3000);
 })
 
-
+/* Tabs */
 const tabsItem = document.querySelectorAll('.tabs-block__item'),
       tabs = document.querySelectorAll('.tabs-block__tab');
 
@@ -98,7 +98,7 @@ tabsItem.forEach( (item, index) => {
     })
 })
 
-
+/* Fixed sidebar */
 const sidebar = document.getElementById('sidebar'),
       up = document.querySelector('.up img');
 document.addEventListener('scroll', () => {
@@ -112,9 +112,10 @@ document.addEventListener('scroll', () => {
     }    
 })
 
-
+/* Scroll to Top */
 up.addEventListener('click', () => scrollTo(0, 0) );
 
+/* Change theme */
 const colorElements = document.getElementsByClassName('theme'),
       changeTheme = document.querySelector('.theme__change');
 
