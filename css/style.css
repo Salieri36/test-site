@@ -145,7 +145,7 @@ aside {
 #sidebar {
     text-align: center;      
 }
-img.show {
+.up img.show {
     display: block;
 }
 .sidebar-menu__item a:hover {
